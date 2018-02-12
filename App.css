@@ -1,0 +1,103 @@
+body {
+  background: white;
+}
+
+.container{
+    max-width: 50%;
+    margin: 40px auto;
+    border-radius: 5%;
+    background: #6FE1FF;
+    padding: 20px;
+}
+.heading{
+  text-align: center;
+}
+
+.badge{
+    font-size: 2.7rem;
+    border-radius: 50%;
+    color:black;
+    display: inline-block;
+}
+
+.label-info{
+    background: #9260D6;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 10%;
+    padding: 5px;
+    color: white;
+}
+
+.fa-trash-alt{
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+}
+.btn-danger:hover{
+  background: purple;
+}
+
+.fa-calendar-alt{
+  border-radius: 45%;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+input{
+    display: inline-block;
+}
+
+h3{
+  text-shadow: 2px 2px white;
+  font-size: 50px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5%;
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+h4{
+  font-family: 'Encode Sans', sans-serif;
+  margin-bottom: 15px;
+}
+.form-horizontal{
+  text-align: left;
+  background: blue;
+  color: white;
+  padding: 30px;
+  border-radius: 15px 15px 0 0;
+}
+control-label{
+  text-align: center;
+
+}
+.btn-add {
+  background: #6FE1FF;
+  padding: 30px;
+  border-radius: 50%;
+  text-align: center;
+
+
+}
+.btn-add:hover{
+color: white;
+background: purple;
+}
+
+.thumb{
+  display: inline;
+  float: right;
+  vertical-align: top;
+  margin-right: 60px;
+  font-size: 80px;
+  color:black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    text-shadow: 4px 4px #FF67D3;
+}
